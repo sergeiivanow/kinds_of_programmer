@@ -23,12 +23,13 @@ val Navigation = FC<Props> {
         BrowserRouter {
             Routes {
                 Route {
-                    path = "/test"
-                    element = Test.create()
+                    index = true
+                    path = "*"
+                    element = Home.create()
                 }
                 Route {
-                    path = "/"
-                    element = Home.create()
+                    path = "/test"
+                    element = Test.create()
                 }
             }
         }
