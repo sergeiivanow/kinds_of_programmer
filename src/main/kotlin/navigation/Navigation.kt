@@ -28,7 +28,7 @@ val Navigation = FC<Props> {
                     element = Home.create()
                 }
                 Route {
-                    path = "/test"
+                    path = "test"
                     element = Test.create()
                 }
             }
