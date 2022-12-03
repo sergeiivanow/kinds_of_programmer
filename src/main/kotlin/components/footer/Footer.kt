@@ -5,6 +5,7 @@ import csstype.px
 import react.FC
 import react.Props
 import react.css.css
+import react.dom.html.AnchorTarget
 import react.dom.html.ReactHTML.a
 import react.dom.html.ReactHTML.div
 
@@ -16,6 +17,7 @@ val Footer = FC<Props> {
             justifyContent = JustifyContent.center
         }
         a {
+            target = AnchorTarget._blank
             href = "https://github.com/sergeiivanow/kinds_of_programmer"
             +"исходник тут"
         }
